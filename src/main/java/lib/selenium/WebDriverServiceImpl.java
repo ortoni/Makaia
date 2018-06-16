@@ -158,7 +158,7 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	}
 
 	public void acceptAlert() {
-		driver.switchTo().alert().accept();
+		webdriver.switchTo().alert().accept();
 	}
 
 	public void dismissAlert() {

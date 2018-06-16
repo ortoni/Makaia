@@ -58,7 +58,7 @@ public class PSM extends WebDriverServiceImpl{
 		driver = new EventFiringWebDriver(webdriver);
 		driver.register(this);
 		driver.manage().window().maximize();
-		driver.get("http:leaftaps.com/opentaps");
+		driver.get("http://irctc.co.in");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
