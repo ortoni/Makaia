@@ -19,7 +19,7 @@ public class CreateLead extends PSM {
 
     @Test(dataProvider = "fetchData")
     public void createLead(String cName, String fName, String lName) {
-
+    	
         WebElement eleUserName = locateElement("id", "username");
         //switchToFrame(eleUserName);
         type(eleUserName, "DemoSalesManager");

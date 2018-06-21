@@ -9,7 +9,7 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.NoSuchSessionException;
-import org.openqa.selenium.NotFoundException;
+import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -56,7 +56,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 	public void afterNavigateTo(String url, WebDriver driver) {
 		// System.out.println("The browser loaded the URL "+url);
 		reportStep("The browser loaded the URL " + url, "pass");
-		takeSnap();
+		//takeSnap();
 	}
 
 	public void beforeNavigateBack(WebDriver driver) {
@@ -66,7 +66,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 		// System.out.println("The browser has loaded the previous page from the
 		// history");
 		reportStep("The browser has loaded the previous page from the history", "pass");
-		takeSnap();
+		//takeSnap();
 	}
 
 	public void beforeNavigateForward(WebDriver driver) {
@@ -76,7 +76,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 	public void afterNavigateForward(WebDriver driver) {
 		reportStep("The browser has loaded the next page from the history", "pass");
 		// System.out.println("The browser has loaded the next page from the history");
-		takeSnap();
+		//takeSnap();
 	}
 
 	public void beforeNavigateRefresh(WebDriver driver) {
@@ -86,7 +86,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 	public void afterNavigateRefresh(WebDriver driver) {
 		reportStep("The browser has reloaded successfully", "pass");
 		// System.out.println("The browser has reloaded successfully");
-		takeSnap();
+		//takeSnap();
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
@@ -103,7 +103,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		reportStep("The element " + element + " is clicked successfully", "pass");
 		// System.out.println("The element "+element +" is clicked successfully");
-		takeSnap();
+		//takeSnap();
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
@@ -113,7 +113,7 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 		reportStep("The value " + keysToSend[0] + " is entered successfully in element " + element, "pass");
 		// System.out.println("The value "+keysToSend[0]+" is entered successfully in
 		// element "+element);
-		takeSnap();
+		//takeSnap();
 
 	}
 
@@ -131,37 +131,41 @@ public class WebDriverListener extends Reporter implements WebDriverEventListene
 
 	public void afterSwitchToWindow(String windowName, WebDriver driver) {
 		System.out.println("The driver is moved to the window with title " + driver.getTitle());
-		takeSnap();
+		//takeSnap();
 
 	}
 
 	public void onException(Throwable throwable, WebDriver driver) {
-		System.out.println(throwable.getMessage());
+		//System.out.println(throwable.getMessage());
 		if (throwable instanceof NoSuchFrameException) {
-			reportStep("Failed" + throwable.getMessage(), "fail");
+			reportStep("No frame found\n" + throwable.getMessage(), "fail");
+			System.out.println("frame failed");
+			throw new RuntimeException();
+		}
+		if (throwable instanceof NoSuchWindowException) {
+			reportStep("No frame found\n" + throwable.getMessage(), "fail");
 			System.out.println("frame failed");
 			throw new RuntimeException();
 		}
 		if (throwable instanceof NoSuchSessionException) {
-			reportStep("Failed" + throwable.getMessage(), "fail");
+			reportStep("NoSuchSessionException" + throwable.getMessage(), "fail");
 			System.out.println("failed");
 			throw new RuntimeException();
 		} 
 		else if (throwable instanceof NullPointerException) {
-			reportStep("Failed" + throwable.getMessage(), "fail");
+			reportStep("NullPointerException" + throwable.getMessage(), "fail");
 			System.out.println("failed");
 			throw new RuntimeException();
 		}
 		else if (throwable instanceof NoSuchElementException) {
+			takeSnap();
 			System.out.println("failed no such element");
-			reportStep("Failed" + throwable.getMessage(), "fail");
+			reportStep("NoSuchElementException\n" + throwable.getMessage(), "fail");
 			throw new RuntimeException();
 		} 
 		else if (throwable instanceof NoAlertPresentException) {
+			reportStep("NoAlertPresentException", "fail");
 			System.out.println("Alert test");
-		}
-		else if (throwable instanceof NotFoundException) {
-			System.out.println();
 		}
 	}
 

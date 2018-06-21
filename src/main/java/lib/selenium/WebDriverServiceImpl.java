@@ -5,7 +5,11 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import lib.listeners.WebDriverListener;
@@ -13,19 +17,24 @@ import lib.listeners.WebDriverListener;
 public class WebDriverServiceImpl extends WebDriverListener implements WebDriverService{
 
 	public WebElement locateElement(String locator, String locValue) {
-		switch (locator) {
-		case "id": return driver.findElement(By.id(locValue));
-		case "class": return driver.findElement(By.className(locValue));
-		case "link" : return driver.findElement(By.linkText(locValue));
-		case "xpath": return driver.findElement(By.xpath(locValue));
-		case "tagName": return driver.findElement(By.tagName(locValue));
-		case "name": return driver.findElement(By.name(locValue));
-		case "plink": return driver.findElement(By.partialLinkText(locValue));
-		default:
-			break;
+		try {
+			switch (locator) {
+			case "id": return driver.findElement(By.id(locValue));
+			case "class": return driver.findElement(By.className(locValue));
+			case "link" : return driver.findElement(By.linkText(locValue));
+			case "xpath": return driver.findElement(By.xpath(locValue));
+			case "tagName": return driver.findElement(By.tagName(locValue));
+			case "name": return driver.findElement(By.name(locValue));
+			case "plink": return driver.findElement(By.partialLinkText(locValue));
+			default:
+				break;
+			}
+		} catch (NoSuchElementException e) {
+			throw new RuntimeException();
 		}
-
 		return null;
+
+
 	}
 
 	public void type(WebElement ele, String data) {
@@ -146,10 +155,20 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	}
 
 	public void switchToWindow(int index) {
-		Set<String> allwindowHandles = driver.getWindowHandles();
-		List<String> list = new ArrayList<String>();
-		list.addAll(allwindowHandles);
-		driver.switchTo().window(list.get(index));
+		try {
+			Set<String> allwindowHandles = driver.getWindowHandles();
+			List<String> list = new ArrayList<String>();
+			System.out.println(list.size());
+			list.addAll(allwindowHandles);
+			driver.switchTo().window(list.get(index));
+		} catch (NoSuchWindowException e) {
+			System.err.println("NoSuchWindowException");
+			throw new RuntimeException();
+		}
+		catch (IndexOutOfBoundsException e) {
+			System.err.println("IndexOutOfBoundsException");
+			throw new RuntimeException();
+		}
 
 	}
 
@@ -158,7 +177,11 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	}
 
 	public void acceptAlert() {
-		webdriver.switchTo().alert().accept();
+		driver.switchTo().alert().accept();
+	}
+	public void acceptAlert(String data) {
+		driver.switchTo().alert().sendKeys(data);
+		driver.switchTo().alert().accept();
 	}
 
 	public void dismissAlert() {
@@ -177,5 +200,30 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	public void closeAllBrowsers() {
 		driver.quit();
 	}
+	public void actions(WebElement ele, String actionToePerformed) {
 
+		Actions act = new Actions(driver);
+		switch (actionToePerformed) {
+		case "moveToElement":
+			act.moveToElement(ele).perform();
+			break;
+		case "click":
+			act.click(ele).perform();
+			break;
+		default:
+			break;
+		}
+	}
+	public void driverActions(String actionToePerformed) {
+		switch (actionToePerformed) {
+		case "esc":
+			driver.getKeyboard().sendKeys(Keys.ESCAPE);
+			break;
+		case "tab":
+			driver.getKeyboard().sendKeys(Keys.TAB);
+			break;
+		default:
+			break;
+		}
+	}
 }
