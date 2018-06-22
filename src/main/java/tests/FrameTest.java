@@ -23,8 +23,8 @@ public class FrameTest extends PSM {
 		switchToFrame(frame);
 		click(locateElement("xpath", "//button[text()='Try it']"));
 		acceptAlert("Koushik");
-		System.out.println(getText(locateElement("id", "dem")));
-		
+		System.out.println(getText(locateElement("id", "demo")));
+
 	}
 }
 

@@ -58,8 +58,8 @@ public class PSM extends WebDriverServiceImpl{
 		driver = new EventFiringWebDriver(webdriver);
 		driver.register(this);
 		driver.manage().window().maximize();
-		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
 		driver.manage().timeouts().implicitlyWait(03, TimeUnit.SECONDS);
+		driver.get("http://leaftaps.com/opentaps/control/main");
 	}
 	
 	

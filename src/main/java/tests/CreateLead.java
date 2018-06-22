@@ -21,7 +21,6 @@ public class CreateLead extends PSM {
     public void createLead(String cName, String fName, String lName) {
     	
         WebElement eleUserName = locateElement("id", "username");
-        //switchToFrame(eleUserName);
         type(eleUserName, "DemoSalesManager");
         WebElement elePassword = locateElement("id", "password");
         type(elePassword, "crmsfa");
