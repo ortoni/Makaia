@@ -1,0 +1,22 @@
+{
+    "course": [
+        {
+            "id": 1,
+            "name": "Selenium",
+            "date": "today",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/testleaf-cecb3.appspot.com/o/courseSnaps%2FAppium1.jpg?alt=media&token=d9df575f-f5d9-424c-ab24-2eaa75c53870"
+        },
+        {
+            "id": 2,
+            "name": "Rest & SOAP API",
+            "date": "tomo",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/testleaf-cecb3.appspot.com/o/courseSnaps%2Fcucumber.png?alt=media&token=da56a871-20e3-49fe-9a4a-a6f8b5213d3b"
+        },
+        {
+            "id": 3,
+            "name": "Appium",
+            "date": "DAT",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/testleaf-cecb3.appspot.com/o/courseSnaps%2Fsel.png?alt=media&token=81433365-4f0c-4596-ae23-44293dae0428"
+        }
+    ]
+}
