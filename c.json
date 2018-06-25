@@ -17,6 +17,12 @@
             "name": "Appium",
             "date": "DAT",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/testleaf-cecb3.appspot.com/o/courseSnaps%2Fsel.png?alt=media&token=81433365-4f0c-4596-ae23-44293dae0428"
+        },
+         {
+            "id": 4,
+            "name": "New Test",
+            "date": "28/05/2018",
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/UFT.jpg"
         }
     ]
 }
