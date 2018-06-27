@@ -43,14 +43,14 @@
     ],
     "jobUpdates": [
         {
-            "title": "",
-            "content": "Job 1",
-            "email": "August 18, 2018"
+            "title": "Automation Engineer",
+            "content": "Some description about job",
+            "email": "koushik@testleaf.com"
         },
         {
-            "title": "",
-            "content": "HP Loadrunner",
-            "email": "August 18, 2018"
+           title": "Manual Tester",
+            "content": "Some description about job",
+            "email": "koushik@testleaf.com"
         }
     ]
 }
