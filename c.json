@@ -3,42 +3,50 @@
         {
             "name": "Webservices Automation",
             "date": "July 7, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2018/05/Rest-300x300-1.png"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2018/05/Rest-300x300-1.png",
+            "desc": "Course duration: 4 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 100 Hours\nStart date: July 7, 2018"
         },
         {
             "name": "Selenium Weekend",
             "date": "July 21, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/SE-Weekend.png"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/SE-Weekend.png",
+            "desc": "Course duration: 10 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 100 Hours\nStart date: July 21, 2018"
         },
         {
             "name": "Cucumber with TestNG",
             "date": "June 9, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/admin-ajax.png"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/admin-ajax.png",
+            "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 8 Hours\nStart date: June 9, 2018"
         },
         {
             "name": "UFT / QTP",
             "date": "June 16, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/UFT.jpg"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/UFT.jpg",
+            "desc": "Course duration: 5 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 40 Hours\nStart date:  June 16, 2018"
         },
         {
             "name": "Apache JMeter Workshop",
             "date": "August 4 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Apache_JMeter.jpg"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Apache_JMeter.jpg",
+            "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "Appium Workshop",
             "date": "June 9, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Appium1.jpg"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Appium1.jpg",
+            "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "Selenium (WeekDays)",
             "date": "July 2, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Weekday.png"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Weekday.png",
+            "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "HP Loadrunner",
             "date": "August 18, 2018",
-            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Weekend.png"
+            "imageUrl": "http://testleaf.com/wp-content/uploads/2017/08/Weekend.png",
+            "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         }
     ],
     "jobUpdates": [
@@ -51,26 +59,14 @@
             "title": "Manual Tester",
             "content": "Some description about job",
             "email": "koushik@gmail.com"
-        },
+        }
+    ],
+    "contacts": [
         {
-            "title": "Automation Engineer",
-            "content": "Here is a unique opening for Automation Selenium -Java - Coimbatore on 30th June\nMandatory Skill: Automation Selenium Java\nExperience: 3 -9 Years\nInterview Location : Coimbatore\nWork Location: Coimbatore",
-            "email": "koushik@testleaf.com"
-        },
-        {
-            "title": "Manual Tester",
-            "content": "Some description about job",
-            "email": "koushik@gmail.com"
-        },
-        {
-            "title": "Automation Engineer",
-            "content": "Here is a unique opening for Automation Selenium -Java - Coimbatore on 30th June\nMandatory Skill: Automation Selenium Java\nExperience: 3 -9 Years\nInterview Location : Coimbatore\nWork Location: Coimbatore",
-            "email": "koushik@testleaf.com"
-        },
-        {
-            "title": "Manual Tester",
-            "content": "Some description about job",
-            "email": "koushik@gmail.com"
+            "type": "Call",
+            "com": "+919940637449",
+            "email": "koushik@gmail.com",
+            "whatsapp": "+919940637449"
         }
     ]
 }
