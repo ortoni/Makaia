@@ -3,49 +3,49 @@
         {
             "name": "Web Services Automation",
             "date": "July 7, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/Rest-300x300-1.png",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/Rest-300x300-1.png",
             "desc": "Course duration: 4 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 100 Hours\nStart date: July 7, 2018"
         },
         {
             "name": "Selenium Weekend",
             "date": "July 21, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/SE-Weekend.png",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/SE-Weekend.png",
             "desc": "Course duration: 10 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 100 Hours\nStart date: July 21, 2018"
         },
         {
             "name": "Cucumber with TestNG",
             "date": "June 9, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/cucumber.png",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/cucumber.png",
             "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 8 Hours\nStart date: June 9, 2018"
         },
         {
             "name": "UFT /\nQTP",
             "date": "June 16, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/UFT.jpg",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/UFT.jpg",
             "desc": "Course duration: 5 Weekends\nEvery Week: 2 Sessions\nEach session: 4 Hours\nProjects & Assignments: 40 Hours\nStart date:  June 16, 2018"
         },
         {
             "name": "Apache JMeter Workshop",
             "date": "August 4 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/Apache_JMeter.jpg",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/Apache_JMeter.jpg",
             "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "Appium Workshop",
             "date": "June 9, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/Appium1.jpg",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/Appium1.jpg",
             "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "Selenium (WeekDays)",
             "date": "July 2, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/Weekday.png",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/Weekday.png",
             "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         },
         {
             "name": "HP\nLoadrunner",
             "date": "August 18, 2018",
-            "imageUrl": "https://github.com/ortoni/Makaia/blob/master/img/hp.png",
+            "imageUrl": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/hp.png",
             "desc": "Course duration: 2 Weekends\nEvery Week: 2 Sessions\nEach session: 5 Hours\nProjects & Assignments: 8 Hours\nStart date:  August 4 2018"
         }
     ],
