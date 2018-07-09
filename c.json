@@ -70,7 +70,7 @@
         }
     ], 
     "gallery":{
-         {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/1.jpg"},
+         "gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/1.jpg"},
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"},
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/12.jpg"},
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/2.jpg"},
@@ -83,5 +83,5 @@
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/9.jpg"},
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/course.png"},
   {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"},
-},
+
 }
