@@ -68,20 +68,46 @@
             "email": "koushik@gmail.com",
             "whatsapp": "+919940637449"
         }
-    ], 
-    "gallery":{
-         "gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/1.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/12.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/2.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/3.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/4.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/5.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/6.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/7.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/8.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/9.jpg"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/course.png"},
-  {"gal":"https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"},
-
+    ],
+    "gallery": [
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/1.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/12.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/2.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/3.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/4.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/5.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/6.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/7.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/8.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/9.jpg"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/course.png"
+        },
+        {
+            "gal": "https://raw.githubusercontent.com/ortoni/Makaia/master/img/gallery/10.jpg"
+        }
+    ]
 }
