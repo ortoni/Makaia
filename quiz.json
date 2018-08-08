@@ -1,5 +1,24 @@
 [
     {
+        "questions": "Question 1 ?",
+        "choices": [
+            "op1",
+            "op2",
+            "op3",
+            "op4"
+        ],
+        "correctAnswers": "op2"
+    }, 
+     {
+        "questions": "Question 2 ?",
+        "choices": [
+            "op1",
+            "op2",
+            "op3",
+            "op4"
+        ],
+        "correctAnswers": "op4"
+    }, {
         "questions": "TestNg is a ?",
         "choices": [
             "Execution FW",
