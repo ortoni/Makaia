@@ -1,27 +1,22 @@
 [
-    "play",
-    [
-        {
-            "imageUrl": "",
-            "questions": "What is testNg?",
-            "choices": [
-                "Execution FW",
-                "main method",
-                "junit runer",
-                "selenium FW"
-            ],
-            "correctAnswers": "Execution FW"
-        },
-        {
-            "imageUrl": "",
-            "questions": "what is mandatory in testNG",
-            "choices": [
-                "@Test",
-                "@test",
-                "TestAnnotation",
-                "XML"
-            ],
-            "correctAnswers": "@Test"
-        }
-    ]
+    {
+        "questions": "TestNg is a ?",
+        "choices": [
+            "Execution FW",
+            "XML",
+            "Main method",
+            "Junit Runner"
+        ],
+        "correctAnswers": "Execution FW"
+    },
+    {
+        "questions": "Which annotation is mandatory is TestNg ?",
+        "choices": [
+            "@Test",
+            "@DP",
+            "test",
+            "main()"
+        ],
+        "correctAnswers": "@Test"
+    }
 ]
