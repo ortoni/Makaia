@@ -110,23 +110,6 @@
         "correctAnswers": "c)  getText(), accept(), dismiss(), sendKeys()"
     },
     {
-        "questions": "After handling the alert, should we need to switch back to the webpage?",
-        "choices": [
-            "a) No",
-            "b) Yes",
-            "c) None of the above"
-        ],
-        "correctAnswers": "a) No"
-    },
-    {
-        "questions": "Can we pass parameters in an alert?",
-        "choices": [
-            "a) Yes",
-            "b) No"
-        ],
-        "correctAnswers": "b) No"
-    },
-    {
         "questions": "What are the Exceptions you will get in alerts?",
         "choices": [
             "a)  NoAlertPresentException  &  AlertNotFoundException",
