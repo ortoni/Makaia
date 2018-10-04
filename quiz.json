@@ -1,41 +1,139 @@
 [
     {
-        "questions": "Question 1 ?",
+        "questions": "Do you know method name which we can builds up the actions chain?",
         "choices": [
-            "op1",
-            "op2",
-            "op3",
-            "op4"
+            "a) perform();",
+            "b) build();",
+            "c) click();",
+            "d) doubleClick();"
         ],
-        "correctAnswers": "op2"
-    }, 
-     {
-        "questions": "Question 2 ?",
-        "choices": [
-            "op1",
-            "op2",
-            "op3",
-            "op4"
-        ],
-        "correctAnswers": "op4"
-    }, {
-        "questions": "TestNg is a ?",
-        "choices": [
-            "Execution FW",
-            "XML",
-            "Main method",
-            "Junit Runner"
-        ],
-        "correctAnswers": "Execution FW"
+        "correctAnswers": "b) build();"
     },
     {
-        "questions": "Which annotation is mandatory is TestNg ?",
+        "questions": "When we can use Actions class In Selenium WebDriver test case?",
         "choices": [
-            "@Test",
-            "@DP",
-            "test",
-            "main()"
+            "a) Drag and drop element, Drag and drop by x,y pixel offset",
+            "b) Selecting selectable Items, Moving slider",
+            "c) Re-sizing re-sizable element ",
+            "d)All the above"
         ],
-        "correctAnswers": "@Test"
+        "correctAnswers": "d)All the above"
+    },
+    {
+        "questions": "What class will help you to copy one file to another file to capture screenshort ?",
+        "choices": [
+            "a) File",
+            "b) FileReader",
+            "c) FileAssert",
+            "d) FileUtils"
+        ],
+        "correctAnswers": "d) FileUtils"
+    },
+    {
+        "questions": "What is an Alert ?",
+        "choices": [
+            "a) Interface",
+            "b) class",
+            "c) Enum",
+            "d) method"
+        ],
+        "correctAnswers": "a) Interface"
+    },
+    {
+        "questions": "What method will help you to  take screenshot in selenium?",
+        "choices": [
+            "a) driver.screenshotAs(OutputType<X>.FILE);",
+            "b) driver.fullScreenshotAs(OutputType.file);",
+            "c) driver.getScreenshotAs(OutputType.FILE);",
+            "d) driver.createScreenCaptureAs(OutputType.FILE);"
+        ],
+        "correctAnswers": "c) driver.getScreenshotAs(OutputType.FILE);"
+    },
+    {
+        "questions": "Tell me the class name using which we can generate Action chain ?",
+        "choices": [
+            "a) Action",
+            "b) Access",
+            "c) Actions",
+            "d) ActionEvent"
+        ],
+        "correctAnswers": "c) Actions"
+    },
+    {
+        "questions": "How do you switch back to parent window?",
+        "choices": [
+            "a) driver.switchTo().window().parentWindow();",
+            "b) driver.switchTo().window(listObject.get(1));",
+            "c) driver.switchTo().window().mainWindow();",
+            "d) driver.switchTo().window(listObject.get(0));"
+        ],
+        "correctAnswers": "d) driver.switchTo().window(listObject.get(0));"
+    },
+    {
+        "questions": "What type of  exception you will face in your project when handling the  windows",
+        "choices": [
+            "a) NoSuchWindowException",
+            "b) StaleElementException",
+            "c) NoSuchSessionException",
+            "d) NoSuchWindowOpened"
+        ],
+        "correctAnswers": "a) NoSuchWindowException"
+    },
+    {
+        "questions": "Tell me the syntax for to switch to frame",
+        "choices": [
+            "a) driver.switchTo().frame(String nameOrId);",
+            "b) driver.switchTo().frame(int index);",
+            "c) driver.switchTo().frame(WebElement frameElement);",
+            "d) all the above"
+        ],
+        "correctAnswers": "d) all the above"
+    },
+    {
+        "questions": "How to handle frames without having any attributes?",
+        "choices": [
+            "a) Using id and name",
+            "b) Using xpath",
+            "c) Using className",
+            "d) Using index"
+        ],
+        "correctAnswers": "d) Using index"
+    },
+    {
+        "questions": "What are the methods available in an 'Alert'?",
+        "choices": [
+            "a)  getText(), accept(), dismiss(), defaultContent()",
+            "b)  accept(), dismiss(), getText(), getAttribute()",
+            "c)  getText(), accept(), dismiss(), sendKeys()",
+            "d) accept(), switchToAlert(), dismiss(), getText()"
+        ],
+        "correctAnswers": "c)  getText(), accept(), dismiss(), sendKeys()"
+    },
+    {
+        "questions": "After handling the alert, should we need to switch back to the webpage?",
+        "choices": [
+            "a) No",
+            "b) Yes",
+            "c) None of the above"
+        ],
+        "correctAnswers": "a) No"
+    },
+    {
+        "questions": "Can we pass parameters in an alert?",
+        "choices": [
+            "a) Yes",
+            "b) No"
+        ],
+        "correctAnswers": "b) No"
+    },
+    {
+        "questions": "What are the Exceptions you will get in alerts?",
+        "choices": [
+            "a)  NoAlertPresentException  &  AlertNotFoundException",
+            "b) UnHandledAlertException  & NoAlertPresentException",
+            "c)  NoSuchAlertException  &  AlertNotFoundException",
+            "d) AlertNotPresentException  &  UnHandledAlertException"
+        ],
+        "correctAnswers": "b) UnHandledAlertException  & NoAlertPresentException"
     }
 ]
