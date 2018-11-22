@@ -1,0 +1,14 @@
+{
+    "exception": [
+        {
+            "error": "NoSuchElement",
+            "occurance": "Selenium",
+            "solve": "do something to solve"
+        },
+        {
+            "error": "ArrayIndexOutOfBound",
+            "occurance": "Java",
+            "solve": "do something to solve1"
+        }
+    ]
+}
